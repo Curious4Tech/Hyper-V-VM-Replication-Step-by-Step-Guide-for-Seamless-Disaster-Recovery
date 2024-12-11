@@ -141,6 +141,8 @@ Alternatively:
 2. In the lower pane, switch to the **Replication** tab.
 3. Verify that the initial replication completes successfully.
 
+![image](https://github.com/user-attachments/assets/df665832-c7e9-43ba-b6d1-5889f3f39351)
+
 ---
 
 #### **7. Test the Failover**
