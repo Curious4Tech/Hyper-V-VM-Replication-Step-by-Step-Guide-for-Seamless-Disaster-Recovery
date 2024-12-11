@@ -36,7 +36,7 @@ Ensure the FQDN of **SERVERDC22** is resolvable from **SERVERDC19**:
      <IP_ADDRESS_OF_SERVERDC22> SERVERDC22.nextechiq.local 
      ```
      
-     Replace `SERVERDC22.nextechiq.local` with your server FQDN or hotsname
+     Replace `SERVERDC22.nextechiq.local` with your server FQDN or hotsname and `IP_ADDRESS_OF_SERVERDC22` with your server IP.
      
 ![image](https://github.com/user-attachments/assets/56c514e7-f978-4c4a-8c3d-5efb7567fabf)
 
@@ -52,6 +52,15 @@ Run the following commands on both servers:
 netsh advfirewall firewall add rule name="Hyper-V Replica HTTP" dir=in action=allow protocol=TCP localport=80
 netsh advfirewall firewall add rule name="Hyper-V Replica HTTPS" dir=in action=allow protocol=TCP localport=443
 ```
+
+`SERVERDC19`
+
+![image](https://github.com/user-attachments/assets/82205df4-c8b2-4721-927a-a202c5cc0100)
+
+`SERVERDC22`
+
+![image](https://github.com/user-attachments/assets/dc61c376-0280-4a1c-9656-e47403a2a04c)
+
 
 Alternatively:
 - Open **Windows Defender Firewall** > **Advanced Settings**.
