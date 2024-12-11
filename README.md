@@ -35,7 +35,9 @@ Ensure the FQDN of **SERVERDC22** is resolvable from **SERVERDC19**:
      ```
      <IP_ADDRESS_OF_SERVERDC22> SERVERDC22.nextechiq.local 
      ```
+     
      Replace `SERVERDC22.nextechiq.local` with your server FQDN or hotsname
+     
 ![image](https://github.com/user-attachments/assets/56c514e7-f978-4c4a-8c3d-5efb7567fabf)
 
 ---
