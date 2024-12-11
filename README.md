@@ -71,7 +71,10 @@ Alternatively:
 #### **3. Enable Hyper-V Replica on SERVERDC22 (Replica Server)**
 1. Open **Hyper-V Manager** on **SERVERDC22**.
 2. Right-click **SERVERDC22** and select **Hyper-V Settings**.
-3. Navigate to **Replication Configuration**:
+
+![image](https://github.com/user-attachments/assets/50dc61f0-615f-4f8c-b11e-f8bafbb12b31)
+
+4. Navigate to **Replication Configuration**:
    - Check **Enable this computer as a Replica server**.
    - Select the authentication method:
      - **Kerberos (HTTP)**: For non-secured replication.
@@ -81,7 +84,10 @@ Alternatively:
      - **Option 1**: Allow replication from any authenticated server.
      - **Option 2**: Allow replication from specified servers (recommended).
        - Add **SERVERDC19** and specify the storage path.
-4. Click **Apply** and **OK**.
+5. Click **Apply** and **OK**.
+
+![image](https://github.com/user-attachments/assets/4423bf62-da42-48d1-94bc-4a0adca85798)
+
 
 ---
 
