@@ -153,10 +153,12 @@ Alternatively:
 
 3. Choose a recovery point and click **Test Failover**.
    
-![image](https://github.com/user-attachments/assets/06f87caa-aa8a-450c-a379-d4052b15b0ad)
+![image](https://github.com/user-attachments/assets/c99e4ed5-0653-4b2b-92d2-6598e3dd0bff)
 
 
-5. Verify that the VM starts successfully on **SERVERDC22**.
+4. Verify that the VM starts successfully on **SERVERDC22**.
+
+![image](https://github.com/user-attachments/assets/30b63ecb-9491-462c-81c8-6ce63debbe76)
 
 ---
 
