@@ -166,7 +166,16 @@ Alternatively:
 To migrate the VM permanently to **SERVERDC22**:
 1. Shut down the VM on **SERVERDC19**.
 2. On **SERVERDC19**, right-click the VM and select **Planned Failover**.
-3. Confirm the failover to **SERVERDC22**.
+
+![image](https://github.com/user-attachments/assets/b2061695-7634-4d77-9e04-ce14a7ffd691)
+
+3. Click on **Fail Over** to confirm the failover to **SERVERDC22**.
+
+![image](https://github.com/user-attachments/assets/8a28c4b6-57a3-4d65-88ff-228ad0d56a5f)
+
+4. When you go back to your **SERVERDC22**, you should see your replicated VM running.
+
+![image](https://github.com/user-attachments/assets/1731d184-64b9-4835-992b-79a11b464f5f)
 
 ---
 
