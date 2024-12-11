@@ -148,8 +148,15 @@ Alternatively:
 #### **7. Test the Failover**
 1. On **SERVERDC22**, open **Hyper-V Manager**.
 2. Right-click on the replicated VM and select **Test Failover**.
-3. Choose a recovery point and click **OK**.
-4. Verify that the VM starts successfully on **SERVERDC22**.
+
+![image](https://github.com/user-attachments/assets/8e0cb1de-7cdf-4dc2-b9a6-01fba8529ed0)
+
+3. Choose a recovery point and click **Test Failover**.
+   
+![image](https://github.com/user-attachments/assets/06f87caa-aa8a-450c-a379-d4052b15b0ad)
+
+
+5. Verify that the VM starts successfully on **SERVERDC22**.
 
 ---
 
