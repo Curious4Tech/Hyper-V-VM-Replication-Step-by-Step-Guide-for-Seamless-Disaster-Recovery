@@ -95,25 +95,44 @@ Alternatively:
 1. Open **Hyper-V Manager** on **SERVERDC19**.
 2. Right-click on the virtual machine (**Win Server 2016**) and select **Enable Replication**.
 
+![image](https://github.com/user-attachments/assets/9f67d863-925c-42cc-9aa0-f66acbec742c)
+
 ---
 
 #### **5. Configure the Replication Wizard**
 1. **Specify Replica Server**:
    - Enter the FQDN or hostname of **SERVERDC22**.
    - Click **Next**.
+  
+![image](https://github.com/user-attachments/assets/2cde8b92-53d4-4cc5-a40d-c973f5e59eec)
+
 2. **Choose Authentication Method**:
-   - Select **HTTP** or **HTTPS** based on your configuration.
+   - Select **HTTP** or **HTTPS** based on your configuration and click on **Next**.
+
+![image](https://github.com/user-attachments/assets/d8797389-1297-488b-94b5-cbf651158fc6)
+
 3. **Select VHDs**:
-   - Choose the virtual hard drives (VHDs) to replicate.
+   - Choose the virtual hard drives (VHDs) to replicate and then click on **Next**.
+
+![image](https://github.com/user-attachments/assets/ea09fda8-da20-433e-ac51-597b56b5a9dd)
+
 4. **Configure Replication Frequency**:
-   - Options: Every **30 seconds**, **5 minutes**, or **15 minutes**.
+   - Options: Every **30 seconds**, **5 minutes**, or **15 minutes**. Then click on **Next**.
+
+![image](https://github.com/user-attachments/assets/d66cbf3d-1221-4b4b-b31b-b82c6eac0446)
+
 5. **Initial Replication Method**:
    - Options:
      - **Send initial copy over the network**.
      - **Use an existing VM backup** if the VM already exists on the replica server.
 6. **Schedule Initial Replication**:
    - Choose to start the replication immediately or schedule it for later.
+
+![image](https://github.com/user-attachments/assets/05f6f280-ccec-492c-a91c-213de5651596)
+
 7. Review the settings and click **Finish** to start replication.
+
+![image](https://github.com/user-attachments/assets/3d09a903-08b4-45ff-8b6c-a9aa515b7d88)
 
 ---
 
