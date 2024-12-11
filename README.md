@@ -2,7 +2,7 @@
 
 ### Step-by-Step Guide to Replicate **Win Server 2016** from **SERVERDC19** to **SERVERDC22**
 
-This guide explains how to replicate the virtual machine (**Win Server 2016**) from **SERVERDC19** to **SERVERDC22** using Hyper-V Replica.
+This guide explains how to replicate the virtual machine (**Win Server 2016**) from **Windows Server 2019 (SERVERDC19)** to **Windows Server 2022 (SERVERDC22)** using Hyper-V Replica.
 
 ---
 
@@ -24,6 +24,8 @@ Ensure the FQDN of **SERVERDC22** is resolvable from **SERVERDC19**:
   ```cmd
   nslookup SERVERDC22.nextechiq.local
   ```
+![image](https://github.com/user-attachments/assets/48a86855-7e93-4060-af0e-74e21c3c96a1)
+
 - If DNS is not resolving, add the server to the hosts file on **SERVERDC19**:
   1. Edit the file:
      ```
@@ -31,8 +33,10 @@ Ensure the FQDN of **SERVERDC22** is resolvable from **SERVERDC19**:
      ```
   2. Add the entry:
      ```
-     <IP_ADDRESS_OF_SERVERDC22> SERVERDC22.nextechiq.local
+     <IP_ADDRESS_OF_SERVERDC22> SERVERDC22.nextechiq.local 
      ```
+     Replace `SERVERDC22.nextechiq.local` with your server FQDN or hotsname
+![image](https://github.com/user-attachments/assets/56c514e7-f978-4c4a-8c3d-5efb7567fabf)
 
 ---
 
